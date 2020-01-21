@@ -1,0 +1,150 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+	<meta name="description" content="This Is My Mobile Website Description"><!-- /CHANGE YOUR WEBSITE DESCRIPTION -->
+	<meta name="keywords" content="keyword 1, keyword 2, keyword 3"><!-- /CHANGE YOUR WEBSITE KEYWORDS -->
+	<link rel="stylesheet" href="themes/my-custom-theme.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="themes/custom.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" href="slider/flexslider.css" />
+	<script src="slider/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+	  $(window).load(function() {
+		$('.flexslider').flexslider();
+	  });
+</script>
+</head>
+<body>
+<!-- Start of index page -->
+	<div data-role="page" id="index" data-theme="a">
+		<div data-role="header" data-position="inline">
+			<h1><a href="index.html"><img src="images/logo.png" alt="logo"class="logo"/></a></h1><!-- /REPLACE LOGO - RECOMMENDED SIZE 220x100 -->
+		</div><!-- /header -->
+		<div data-role="content">
+	<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="slider/images/slide_01.jpg" /><!-- /REPLACE SLIDER IMAGE 01 LOCATED IN 'slider/images' -->
+    </li>
+    <li>
+      <img src="slider/images/slide_02.jpg" /><!-- /REPLACE SLIDER IMAGE 02 LOCATED IN 'slider/images' -->
+    </li>
+    <li>
+      <img src="slider/images/slide_03.jpg" /><!-- /REPLACE SLIDER IMAGE 03 LOCATED IN 'slider/images' -->
+    </li>
+  </ul>
+</div>
+		<div class="myButtonFB"><p><a href="https://facebook.com"><img src="images/FB_FindUsOnFacebook-144.png" alt="Find Us On Facebook"></a></p></div><!-- /REPLACE FACEBOOK FANPAGE LINK -->	
+	<br />
+	<ul data-role="listview" data-inset="false">
+	<li><a href="tel:18881234567" data-icon="phone">Call Us</a></li><!-- /REPLACE PHONE NUMBER -->
+    <li><a href="mailto:info@my-email.com" data-icon="mail">Email Us</a></li><!-- /REPLACE EMAIL ADDRESS -->
+    <li><a href="https://goo.gl/maps/S2bBT" data-icon="location">Find Us</a></li><!-- /REPLACE GOOGLE MAPS LINK -->
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#services">Our Services</a></li>
+	<li><a href="#privacy">Privacy Policy</a></li>
+    <li><a href="#terms">Terms & Conditions</a></li>
+	<li><a href="http://previewmymobilesite.com">Visit Full Site</a></li>
+	</ul>
+		</div><!-- /content -->
+		<div data-role="footer">
+	<p style="text-align:center; font-size:10px;">Copyright &copy; 2015</p>
+		</div><!-- /footer -->
+	</div><!-- /index page -->
+
+<!-- Start of about page -->
+	<div data-role="page" id="about" data-theme="a">
+	<div data-role="header" data-position="inline">
+			<h1><a href="index.html"><img src="images/logo.png" alt="logo"class="logo"/></a></h1><!-- /REPLACE LOGO - RECOMMENDED SIZE 220x100 -->
+		<a href="index.html" rel="external" data-transition="flip" data-icon="back" class="ui-btn-left">Back</a>
+		</div><!-- /header -->
+		<div data-role="content">
+		<p></p><!-- /REPLACE CONTENT BEFORE VIDEO-->
+		<div class="video-container"><iframe src="http://www.youtube.com/embed/87bxIqvuBlY" frameborder="0" width="560" height="315"></iframe></div><!-- /REPLACE YouTube.com VIDEO ID -->
+		<p>Quisque a malesuada leo. Curabitur porta pulvinar imperdiet. Vivamus imperdiet, neque ac consequat placerat, odio erat luctus ligula, at volutpat risus ipsum vitae tellus. Sed ullamcorper suscipit blandit. Pellentesque erat ligula, congue nec nulla ac, suscipit condimentum tortor.</p><!-- /REPLACE CONTENT AFTER VIDEO -->
+    <div class="image_wrapper">
+	<img src="images/about_image.jpg" /><!-- /REPLACE WELCOME PAGE IMAGE CALLED "about_image.jpg" LOCATED IN "images" FOLDER -->
+	</div>	
+		<p>Morbi auctor ultricies dolor ac egestas. Morbi nec lorem vitae justo tincidunt placerat congue condimentum massa. Curabitur feugiat accumsan imperdiet. Nullam eget arcu eget eros viverra eleifend. Morbi pretium ante non justo auctor, congue lobortis nunc posuere.</p><!-- /REPLACE CONTENT AFTER IMAGE -->
+		</div><!-- /content -->
+		<div data-role="footer">
+		<p style="text-align:center; font-size:10px;">Copyright &copy; 2015</p>
+		</div><!-- /footer -->
+	</div><!-- /about page -->
+
+<!-- Start of services page -->
+	<div data-role="page" id="services" data-theme="a">
+		<div data-role="header" data-position="inline">
+			<h1><a href="index.html"><img src="images/logo.png" alt="logo"class="logo"/></a></h1><!-- /REPLACE LOGO - RECOMMENDED SIZE 220x100 -->
+		<a href="index.html" rel="external" data-transition="flip" data-icon="back" class="ui-btn-left">Back</a>
+		</div><!-- /header -->
+		<div data-role="content">	
+<div data-role="collapsible-set">
+    <div data-role="collapsible" data-collapsed="false">
+        <h3>Service 1</h3>
+    <h2>Service 1</h2>
+	<p>Aenean feugiat sapien nec mi pellentesque, at cursus erat dictum. Mauris eu ultrices purus. In vulputate quam lorem, vehicula ultrices tellus consectetur sed. Sed sit amet ultrices orci.</p>
+    <div class="video-container"><iframe src="http://www.youtube.com/embed/UgBWSPD6MUU" frameborder="0" width="560" height="315"></iframe></div><!-- /REPLACE YouTube.com VIDEO ID -->
+	<p>Integer blandit nisi ut nulla suscipit, eget tempor eros lacinia. Mauris et ligula orci. Donec odio eros, euismod non sapien tincidunt, malesuada adipiscing neque. Cras egestas consectetur pretium. Donec hendrerit lorem at ornare sagittis. Proin massa nisl, bibendum vitae est id, euismod consectetur tortor. </p>
+	</div>
+    <div data-role="collapsible">
+        <h3>Service 2</h3>
+    <p>Sed mattis sagittis diam, sit amet consequat mauris pretium eget. Ut rhoncus semper libero, nec blandit dolor auctor in. Integer semper tincidunt lacus ac tincidunt. Nullam tincidunt vestibulum ante, vel pellentesque arcu commodo a. Etiam augue elit, lobortis at nulla non, gravida pretium sem.</p>
+	 <div class="image_wrapper">
+	<img src="images/services_image.jpg" /><!-- /REPLACE SERVICE PAGE IMAGE CALLED "service_image.jpg" LOCATED IN "images" FOLDER -->
+	</div>	
+	<p>Maecenas pretium urna eu nisi placerat, id hendrerit arcu sodales. Vivamus dolor ligula, hendrerit non rhoncus quis, eleifend non sem. Sed volutpat non lorem congue lacinia. Praesent ornare pellentesque lectus at sollicitudin.</p>
+    </div>
+    <div data-role="collapsible">
+        <h3>Service 3</h3>
+    <p>Phasellus tempor consectetur leo non consequat. Maecenas leo lorem, euismod ac sagittis non, tincidunt in metus. Maecenas molestie purus vel sem egestas posuere.</p>
+    <div class="video-container"><iframe src="http://www.youtube.com/embed/5nP9hU8eUfE" frameborder="0" width="560" height="315"></iframe></div><!-- /REPLACE YouTube.com VIDEO ID -->
+	<p>Cras egestas consectetur pretium. Donec hendrerit lorem at ornare sagittis. Proin massa nisl, bibendum vitae est id, euismod consectetur tortor. Nullam sit amet rhoncus leo, eget placerat tellus. Nulla quis dui in odio egestas congue non nec nisi. Maecenas tincidunt dolor a magna volutpat pretium. </p>
+	</div>
+</div>	
+		</div><!-- /content -->
+		<div data-role="footer">
+	<p style="text-align:center; font-size:10px;">Copyright &copy; 2015</p>
+		</div><!-- /footer -->
+	</div><!-- /services page -->
+
+<!-- Start of terms page -->
+	<div data-role="page" id="terms" data-theme="a">
+			<div data-role="header" data-position="inline">
+			<h1><a href="index.html"><img src="images/logo.png" alt="logo"class="logo"/></a></h1><!-- /REPLACE LOGO - RECOMMENDED SIZE 220x100 -->
+		<a href="index.html" rel="external" data-transition="flip" data-icon="back" class="ui-btn-left">Back</a>
+		</div><!-- /header -->
+		<div data-role="content">	
+	<h2>Terms Of Service</h2>
+	<p>Morbi arcu augue, adipiscing sed ipsum vel, venenatis euismod urna. Aliquam a pulvinar leo. Etiam fermentum erat vel nisl accumsan faucibus. Aliquam neque lacus, commodo quis velit et, aliquam fringilla ante. Nunc dictum tempor varius. Nam iaculis tristique lacus, in fringilla ipsum. Pellentesque vestibulum mattis nisi a ullamcorper. Integer eget neque ornare nunc aliquet consequat eu pellentesque sapien. Morbi a turpis in est suscipit accumsan.</p>
+	<p>Proin augue dolor, mattis eget diam a, scelerisque pharetra est. Donec gravida ultricies neque quis ullamcorper. Nunc tempus sed enim ut imperdiet. Sed pretium hendrerit pharetra. Pellentesque ac facilisis mi. Nam vel mauris ornare, gravida sem vitae, rhoncus justo. Nunc suscipit egestas metus. Nam porta nisi pretium, consectetur felis quis, mattis leo. Nam dictum odio a mauris dictum imperdiet.</p>	
+	<p>Nunc at pellentesque diam. Vestibulum condimentum arcu nunc, sit amet venenatis libero placerat suscipit. Nulla sollicitudin felis in est ullamcorper sollicitudin. Aliquam quis justo lectus. Integer fringilla lacinia risus, eu elementum ipsum auctor ac. Sed mauris felis, pulvinar sed odio vel, condimentum malesuada dui. Pellentesque vel ornare est. Cras euismod dui nec molestie aliquet. Praesent vestibulum tincidunt ultricies.</p>	
+		</div><!-- /content -->
+			<div data-role="footer">
+		<p style="text-align:center; font-size:10px;">Copyright &copy; 2015</p>
+		</div><!-- /footer -->
+	</div><!-- /terms page -->
+
+<!-- Start of privacy page -->
+	<div data-role="page" id="privacy" data-theme="a">
+		<div data-role="header" data-position="inline">
+			<h1><a href="index.html"><img src="images/logo.png" alt="logo"class="logo"/></a></h1><!-- /REPLACE LOGO - RECOMMENDED SIZE 220x100 -->
+		<a href="index.html" rel="external" data-transition="flip" data-icon="back" class="ui-btn-left">Back</a>
+		</div><!-- /header -->
+		<div data-role="content">	
+	<h2>Privacy Policy</h2>
+	<p>Vivamus a quam eu ipsum consectetur dictum. Vestibulum in magna ut orci posuere sodales mattis in est. Sed at justo tincidunt, fermentum ligula eget, gravida lectus. Mauris mattis in nulla ut pellentesque. Nulla et congue justo. Integer eleifend tempus felis non ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	<p>Etiam auctor dolor vel elit posuere, non suscipit neque venenatis. Phasellus imperdiet arcu id lacinia consequat. Phasellus ut tellus semper, eleifend lectus non, suscipit leo. Integer varius eu quam et tincidunt. Etiam pharetra, sapien accumsan tincidunt pellentesque, metus nisi pellentesque odio, bibendum molestie tellus enim nec augue. Curabitur eleifend non ipsum nec fringilla. Aliquam scelerisque tincidunt purus quis dictum. In urna justo, tincidunt non ultricies et, interdum eget magna. Duis diam orci, semper in justo in, dictum accumsan ipsum. Aliquam non nibh non dolor tincidunt tempor quis nec mi. Quisque a dapibus enim, vel lacinia tortor. Praesent ac est orci.</p>
+	<p>Quisque aliquam nec est eget tincidunt. Nulla a orci a libero tincidunt bibendum. Vestibulum posuere lacus a hendrerit lobortis. Fusce fringilla nibh ac mi congue, et pellentesque quam rhoncus. Ut consequat placerat nunc. Morbi consequat vestibulum neque, ut mattis purus imperdiet et. In hac habitasse platea dictumst. Sed placerat congue consequat. Proin interdum sem quam, id euismod nibh vehicula at. Mauris vel sapien sagittis, iaculis felis a, consequat nulla. Pellentesque erat eros, facilisis non lacus varius, lacinia cursus enim. Sed ornare pulvinar nisi sed tincidunt. Integer porta enim nec massa eleifend ultrices.</p>
+	</div><!-- /content -->
+		<div data-role="footer">
+		<p style="text-align:center; font-size:10px;">Copyright &copy; 2015</p>
+		</div><!-- /footer -->
+	</div><!-- /privacy page -->
+</body>
+</html>
